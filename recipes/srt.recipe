@@ -5,7 +5,7 @@ from cerbero.tools.libtool import LibtoolLibrary
 
 class Recipe(recipe.Recipe):
     name = 'srt'
-    version = '1.4.3'
+    version = '1.5.3'
     url = 'https://github.com/Haivision/srt/archive/v%(version)s.tar.gz'
     tarball_checksum = 'c06e05664c71d635c37207a2b5a444f2c4a95950a3548402b3e0c524f735b33d'
     licenses = [License.MPLv2]
